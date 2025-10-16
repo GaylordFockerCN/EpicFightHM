@@ -13,7 +13,7 @@ import net.minecraft.world.phys.Vec3;
 import java.util.List;
 
 /**
- * @author LZY
+ * @author P1nero
  * 方便对实体进行一些操作，目前主要是射线判断
  */
 public class EntityUtil {

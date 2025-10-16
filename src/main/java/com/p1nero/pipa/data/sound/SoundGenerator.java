@@ -1,6 +1,6 @@
 package com.p1nero.pipa.data.sound;
 
-import com.p1nero.pipa.EpicFightPiPa;
+import com.p1nero.pipa.EpicPiPaMod;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
@@ -12,6 +12,6 @@ public class SoundGenerator extends SoundProvider {
 
     @Override
     public void registerSounds() {
-        this.generateNewSoundWithSubtitle(EpicFightPiPa.SONIC_BOOM, "", 5);
+        this.generateNewSoundWithSubtitle(EpicPiPaMod.SONIC_BOOM, "", 5);
     }
 }
